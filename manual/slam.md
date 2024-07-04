@@ -21,3 +21,6 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=cartographer
 ```
 rviz
 ```
+
+### 현재 상황
+1. simulation 상에서는 imu가 사용하지 못함 -->odm을 찾을 수 없음 
