@@ -37,7 +37,7 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git tur
 rsync -av --ignore-existing turtlebot3_msgs_temp/ turtlebot3_msgs/
 rm -rf turtlebot3_msgs_temp
 ```
-#### 4. [종속된 패키지 설치하기]()
+#### 4. [종속된 패키지 설치하기](https://github.com/sepengsu/rise_coop_manual/blob/main/packlist/list.md)
 <span style="color:red">이때 주의할 점은 지금 현재 모든 패키지를 설치하므로 오래걸리거나 잘못 설치될 가능성이 있다. 직접하자. </span>
 #### 4. cd ~/catkin_ws
 #### 5. <span style="color:red">catkin build </span>
