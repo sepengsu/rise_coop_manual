@@ -42,3 +42,25 @@ export ROS_HOSTNAE=127.0.0.1
 ``` 
 
 #### 6. connection wifi in turtlebot3
+이 문제는 가끔 slam에서 발생하는 문제로 time 동기화 문제가 원인이다.  
+##### 6.1. wifi 동굴을 사용하여 turtlebot3와 인터넷 연결을 활성화 한다.
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf     
+``` 
+위 코드를 이용하여 와이파이 아이디, 비밀번호를 수정한다.
+```
+sudo systemctl daemon-reload # optional
+sudo systemctl restart networking
+sudo systemctl restart wpa_supplicant 
+sudo service network-manager restart
+```
+##### 6.2. 아래와 같이 NTP와 RTC가 되어 있는지 확인한다. 
+```
+timedatectl
+ping google.com # 연결되어 있는지 확인하기 
+```  
+만약에 문제가 계속 생긴다면 다음을 확인한다.
+```
+sudo nano /etc/resolv.conf # nameserver 8.8.8.8 와 8.8.4.4 있는지 확인 
+sudo nano /etc/hosts # host 정보 확인 
+```
