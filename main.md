@@ -20,7 +20,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 ## 초기 git repostiory 연결 방법 
 0. Start 진행
 1. catkin_ws 폴더를 작업폴더로 설정 (git init)
-2. git remote add origin 새로운 git (git clone과 동일 주소 금지!!!) 
+2. <span style="color:red">git remote add origin 새로운 git (git clone과 동일 주소 금지!!!)</span>
 3. git fetch origin
 4. git reset --hard origin/main
 5. git checkout -b main
