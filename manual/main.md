@@ -1,7 +1,4 @@
 ## 24_RISE_COOP 프로젝트 사용법
-### 0. Remote PC 설정
-1. Ubuntu: 20.04
-2. ros: noetic (2025에 종료 예정)
 
 ### 1. remote PC에 ROS 설치하기 
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
