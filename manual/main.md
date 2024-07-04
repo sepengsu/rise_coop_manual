@@ -35,8 +35,8 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git tur
 rsync -av --ignore-existing turtlebot3_msgs_temp/ turtlebot3_msgs/
 rm -rf turtlebot3_msgs_temp
 ```
-#### 5. catkin build 
-<span style="color:red">-+-+-+-+-+</span>
+#### 4. cd ~/catkin_ws
+#### 5. <span style="color:red">catkin build </span>
 
 ## 초기 git repostiory 연결 방법 
 1. catkin_ws 폴더를 작업폴더로 설정 (git init)
