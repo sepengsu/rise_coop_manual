@@ -31,7 +31,7 @@ $ sudo apt install ros-noetic-turtlebot3-msgs
 $ sudo apt install ros-noetic-turtlebot3
 ``` 
 ##### 4.2. 24_rise_coop을 사용하는 경우 
-turtlebot3, turtlebot3_simulations 패키지 있으면 삭제  
+먼저 위의 4.1 에서 설치한 것들 remove 해야함 
 [24_rise_coop 설치 및 사용](https://github.com/sepengsu/rise_coop_manual/blob/main/manual/main.md)  
 #### 5. Connection turtlebot3 and remote PC
  !ifconfig으로 ip 각각 설정함  
@@ -42,7 +42,6 @@ export ROS_HOSTNAE=127.0.0.1
 ``` 
 
 #### 6. connection wifi in turtlebot3
-이 문제는 가끔 slam에서 발생하는 문제로 time 동기화 문제가 원인이다.  
 ##### 6.1. wifi 동굴을 사용하여 turtlebot3와 인터넷 연결을 활성화 한다.
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf     
