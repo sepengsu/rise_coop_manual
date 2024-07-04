@@ -1,0 +1,3 @@
+# LF를 유지하고 싶은 파일들
+*.txt text eol=lf
+c

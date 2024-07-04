@@ -37,13 +37,17 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git tur
 rsync -av --ignore-existing turtlebot3_msgs_temp/ turtlebot3_msgs/
 rm -rf turtlebot3_msgs_temp
 ```
+#### 4. [종속된 패키지 설치하기]()
+<span style="color:red">이때 주의할 점은 지금 현재 모든 패키지를 설치하므로 오래걸리거나 잘못 설치될 가능성이 있다. 직접하자. </span>
 #### 4. cd ~/catkin_ws
 #### 5. <span style="color:red">catkin build </span>
 
 ## 초기 git repostiory 연결 방법 
+```
 1. catkin_ws 폴더를 작업폴더로 설정 (git init)
 2. <span style="color:red">git remote add origin 새로운 git (git clone과 동일 주소 금지!!!)</span>
 3. git fetch origin
 4. git reset --hard origin/main
 5. git checkout -b main
 6. git push -u origin main 
+```
