@@ -34,4 +34,11 @@ $ sudo apt install ros-noetic-turtlebot3
 turtlebot3, turtlebot3_simulations 패키지 있으면 삭제  
 [24_rise_coop 설치 및 사용](https://github.com/sepengsu/rise_coop_manual/blob/main/manual/main.md)  
 #### 5. Connection turtlebot3 and remote PC
+ !ifconfig으로 ip 각각 설정함  
+ 만약에 Simulation 상으로 한다면 다음과 같이 설정 
+```
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAE=127.0.0.1
+``` 
 
+#### 6. connection wifi in turtlebot3
