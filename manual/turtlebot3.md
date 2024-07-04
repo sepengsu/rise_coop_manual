@@ -4,8 +4,10 @@
 
 ### 1. Remote PC 설정
 1. install ubuntu 20.04 (searching으로 충분히 가능)
-2. install ros-noetic (프로젝트상 버전은 1.16.0)  
+2. install ros-noetic (프로젝트상 버전은 1.16.0) 
+``` 
 $ sudo apt update  
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh  
 $ chmod 755 ./install_ros_noetic.sh  
 $ bash ./install_ros_noetic.sh  
+```
