@@ -30,7 +30,7 @@ $ sudo apt install ros-noetic-dynamixel-sdk
 $ sudo apt install ros-noetic-turtlebot3-msgs
 $ sudo apt install ros-noetic-turtlebot3
 ``` 
-or 
+or source build 
 ```
 $ sudo apt remove ros-noetic-dynamixel-sdk
 $ sudo apt remove ros-noetic-turtlebot3-msgs
@@ -44,6 +44,7 @@ $ cd ~/catkin_ws && catkin_make
 $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ``` 
 4.2. 24_rise_coop을 사용하는 경우 
-
-4. Connection turtlebot3 and remote PC
+turtlebot3, turtlebot3_simulations 패키지 있으면 삭제  
+[24_rise_coop 설치 및 사용](https://github.com/sepengsu/rise_coop_manual/blob/main/manual/main.md)
+5. Connection turtlebot3 and remote PC
 
