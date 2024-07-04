@@ -1,15 +1,15 @@
 ## RISE CO-OP 프로젝트 메뉴얼
 
-## HOW To Start turtlebot3 in remote 
+### HOW To Start turtlebot3 in remote PC
 
-## How to Start
+### How to Start rise_coop 24 main git 
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 1. Install ROS on Remote PC : guidline 3.1.2
 2. Install Dependent ROS Pachages : Guidline 3.1.3
 3. Install turtleBot3 Backages from source
 4. git respositiorty 연결 
 
-## How to install turtleBot3 Backages from source
+#### How to install turtleBot3 Backages from source
 1. sudo apt remove ros-noetic-dynamixel-sdk
 2. sudo apt remove ros-noetic-turtlebot3-msgs
 3. sudo apt remove ros-noetic-turtlebot3
@@ -24,7 +24,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 ## 초기 git repostiory 연결 방법 
 0. Start 진행
 1. catkin_ws 폴더를 작업폴더로 설정 (git init)
-2. git remote add origin https://github.com/sepengsu/24_rise_coop.git
+2. git remote add origin 새로운 git (git clone과 동일 주소 금지!!!) 
 3. git fetch origin
 4. git reset --hard origin/main
 5. git checkout -b main
