@@ -8,6 +8,6 @@
 ### 2. project 다운로드 
 1. home/pi or ~폴더를 현재 작업폴더로 설정
 2. git clone --recurse-submodules -b pi https://github.com/sepengsu/24_rise_coop.git
-3. git remote remove origin 
 
 ### 레지파토리 기존 레지파토리와는 연결 끊음 
+1. git remote remove origin 

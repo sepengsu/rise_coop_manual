@@ -10,8 +10,10 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 1. make catkin_ws folder and src
 2. cd ~/catkin_ws/src/
 3. git clone --recurse-submodules -b main https://github.com/sepengsu/24_rise_coop.git .
+4. git remote remove origin
 
 ### 3. install turtleBot3 Backages from source
+turtlebot 패키지 재구축
 #### 1. remove the package
 ```
 sudo apt remove ros-noetic-dynamixel-sdk
@@ -40,7 +42,6 @@ rm -rf turtlebot3_msgs_temp
 
 ## 초기 git repostiory 연결 방법 
 1. catkin_ws 폴더를 작업폴더로 설정 (git init)
-2. git clone https://github.com/sepengsu/24_rise_coop/tree/main
 2. <span style="color:red">git remote add origin 새로운 git (git clone과 동일 주소 금지!!!)</span>
 3. git fetch origin
 4. git reset --hard origin/main
