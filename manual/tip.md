@@ -74,3 +74,10 @@ align_depth:=true
 kinetic의 경우 현재 not support 하다. 이로 인하여 버전 match하는 문제가 발생한다. 이 때, 다음 과정으로 하길 추천한다.
 1. 해당 패키지의 release 정보 확인한다.
 2. [여기 사이트에서 찾는다](https://github.com/ros-gbp)
+
+### 5. Rtabmap problem
+```
+sudo apt-get install libpcap-dev
+sudo apt-get install libpng-dev
+sudo apt-get install libusb-1.0-0-dev
+```
